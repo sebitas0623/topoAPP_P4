@@ -5,7 +5,7 @@ for running the topology and creat the netcfg files by each device in the same d
   
   make topo
   
-for sending the the netcfg files to the controller:
+for sending the netcfg files to the ONOS controller:
 
   make netcfg
   
