@@ -1,11 +1,36 @@
 {
     "devices": {
         "device:bmv2:s2": {
-            "ports": {}, 
+            "ports": {
+                "1": {
+                    "name": "s2-eth1", 
+                    "speed": 10000, 
+                    "enabled": true, 
+                    "number": 1, 
+                    "removed": false, 
+                    "type": "copper"
+                }, 
+                "3": {
+                    "name": "s2-eth3", 
+                    "speed": 10000, 
+                    "enabled": true, 
+                    "number": 3, 
+                    "removed": false, 
+                    "type": "copper"
+                }, 
+                "2": {
+                    "name": "s2-eth2", 
+                    "speed": 10000, 
+                    "enabled": true, 
+                    "number": 2, 
+                    "removed": false, 
+                    "type": "copper"
+                }
+            }, 
             "basic": {
                 "managementAddress": "grpc://127.0.0.1:50002?device_id=1", 
                 "driver": "bmv2", 
-                "pipeconf": "org.p4.srv6-tutorial"
+                "pipeconf": "org.p4.template"
             }
         }
     }

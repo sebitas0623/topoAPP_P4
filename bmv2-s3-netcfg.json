@@ -5,7 +5,7 @@
             "basic": {
                 "managementAddress": "grpc://127.0.0.1:50003?device_id=1", 
                 "driver": "bmv2", 
-                "pipeconf": "org.p4.srv6-tutorial"
+                "pipeconf": "org.p4.template"
             }
         }
     }
